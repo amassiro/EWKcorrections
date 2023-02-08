@@ -47,6 +47,11 @@ void drawVBSWEEWK() {
   plot->SetLineColor(kBlue);
   
   plot->Draw("APL");
+  plot->GetXaxis()->SetTitle("m_{jj} [GeV]");
+  plot->GetYaxis()->SetTitle("NLO/LO EWK");
+  
+  gPad->SetGrid();
+  
   
    
 }
