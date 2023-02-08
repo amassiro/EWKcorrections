@@ -46,8 +46,8 @@ void convertVBSWEEWK() {
       myfile_forPython << hWZ_KF_CMS->GetBinLowEdge(iBin+1) + hWZ_KF_CMS->GetBinWidth(iBin+1)/2.;
       myfile_forPython << "  " ;
       myfile_forPython << hWZ_KF_CMS->GetBinContent(iBin+1);
-      myfile_forPython << "  " ;
-      myfile_forPython << (hWZ_KF_CMSUp->GetBinContent(iBin+1) - hWZ_KF_CMSDown->GetBinContent(iBin+1)) / 2.;
+//       myfile_forPython << "  " ;
+//       myfile_forPython << (hWZ_KF_CMSUp->GetBinContent(iBin+1) - hWZ_KF_CMSDown->GetBinContent(iBin+1)) / 2.;
       myfile_forPython <<" \n";    
     }
   }  
