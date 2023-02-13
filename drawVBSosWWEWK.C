@@ -7,7 +7,7 @@ void drawVBSosWWEWK() {
   std::ifstream file (name); 
   
   std::string buffer;
-  int num;
+  int num = 0;
   float value;
   
   float x_min[400];
@@ -24,7 +24,8 @@ void drawVBSosWWEWK() {
     getline(file,buffer);
     std::cout << "buffer = " << buffer << std::endl;
     if (buffer != "" && buffer[0] != '#'){ ///---> save from empty line at the end!
-      std::stringstream line( buffer );      
+      std::stringstream line( buffer );   
+      std::cout << " num = " << num << std::endl;
       line >> x_min[num]; 
       line >> x_max[num]; 
       line >> k_fact[num];

@@ -48,7 +48,7 @@ void drawVBSssWWEWK() {
   
   plot->Draw("APL");
   plot->GetXaxis()->SetTitle("m_{jj} [GeV]");
-  plot->GetYaxis()->SetTitle("NLO/LO EWK");
+  plot->GetYaxis()->SetTitle("NLO/LO EWK + QCD");
   
   gPad->SetGrid();
   
