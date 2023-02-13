@@ -4,6 +4,7 @@ EWK NLO corrections to different processes
 Processes available:
 - NLO EWK VBS WZ
 - NLO EWK + NLO QCD VBS same sign WW
+- NLO EWK VBS W+/-W-/+ (a.k.a. os WW)
 
 
 NLO EWK VBS WZ
@@ -33,4 +34,16 @@ based on  https://arxiv.org/abs/1708.00268
     
     r00t drawVBSssWWEWK.C
 
+
+
+NLO EWK VBS osWW
+---
+
+From Matthieu Pellen (email exchange)
+    https://inspirehep.net/literature/2037249
+
+
+    r00t convertVBSosWWEWK.C
+    
+    r00t drawVBSosWWEWK.C
 
