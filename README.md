@@ -47,3 +47,13 @@ From Matthieu Pellen (email exchange)
     
     r00t drawVBSosWWEWK.C
 
+
+Semileptonic final state
+---
+
+Apply approximation on-shell, double pole approximation (DPA), good within 1%
+
+    https://inspirehep.net/literature/1496632
+    
+Test: use same corrections as above, according to the final state osWW, WZ, ssWW
+
